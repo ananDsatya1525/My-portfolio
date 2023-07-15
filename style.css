@@ -104,3 +104,36 @@ span:hover {
   color: blue;
   cursor: pointer;
 }
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  #home{
+    width: 510px;
+  }
+  #about{
+    width: 510px;
+  }
+ #services{
+  width: 510px;
+ }
+ #card{
+ margin-left: 55px;
+ }
+ #myworks{
+  width:510px;
+  overflow-x: hidden;
+ }
+ #contact{
+  width: 510px;
+ }
+ iframe{
+  width: 100%;
+ }
+ #footer{
+  width: 510px;
+ }
+
+
+
+}
