@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.bannerBgImage {
+  height: 100vh;
+  background:url("back.jpg");
+  background-size: cover;
+  position: relative;
+
+}
+
+.bannerText {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.bannerTitle {
+  font-size: 4rem;
+}
+
+.bannerDesc {
+  font-size: 2rem;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgba(119, 136, 153, 0.535);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: .5s;
+}
+
+#nani>img {
+  border-radius: 10px;
+}
+
+#nani>img:hover {
+  cursor: pointer;
+  border: 8px solid #ffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card-img-top {
+  height: 50vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: tomato;
+}
+
+i {
+  font-size: 30px;
+  margin-left: 20px;
+
+}
+
+i:hover {
+  color: #ffff;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  margin-top: 20px;
+}
+
+.copyright {
+  color: lightgray;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+span {
+  color: #ffff;
+}
+
+span:hover {
+  color: blue;
+  cursor: pointer;
+}
